@@ -12,8 +12,8 @@ $(document).ready(function(){
 });
 
 $('.count').counterUp({
-    delay: 10,
-    time: 1000
+    delay: 500,
+    time: 2000,
 });
 
 wow = new WOW({

@@ -88,6 +88,7 @@ html{
     background-color: #F8F8F8;
 }
 
+
 .services-card{
     border:none !important;
     box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.05) !important;
@@ -179,6 +180,10 @@ html{
     width:300px;
     background : #FCFCFE;
     border-radius:50px;
+    transition: 0.5s;
+}
+.front:hover{
+    transform :scale(0.9);
 }
 .space{
     position: absolute;
@@ -222,8 +227,11 @@ html{
     height: 50px;
     border-radius: 25px;
 }
-.shape-card{
-   
+.parent{
+    transition : 0.5s;
+}
+.parent:hover{
+   transform : scale(0.9) ;
 }
 .shape-card::before{
     content: '';
@@ -234,6 +242,12 @@ html{
     left: 6px;
     background: #fff;
     transform: rotate(-6deg); 
+}
+.effect{
+    transition: 0.5s;
+}
+.effect:hover{
+    transform : scale(0.9);
 }
 .layer{
     padding-top:50px;
